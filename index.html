@@ -1,115 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Nova Business Pro</title>
-
-  <link rel="stylesheet" href="style.css"/>
-  <script defer src="script.js"></script>
-
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaBusiness - Interactive Modern Websites</title>
+    <!-- Animation Library CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<!-- NAV -->
-<header>
-  <div class="logo">Nova Business</div>
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="logo">🌐 NovaBusiness</div>
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button class="btn-primary">Get Started</button>
+    </header>
 
-  <nav id="nav">
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#services">Services</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#contact">Contact</a>
-  </nav>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content scroll-reveal fade-left">
+            <span class="badge">🚀 We Build Digital Success</span>
+            <h1>Grow Your Business <br>With a <span class="highlight">Modern Website</span></h1>
+            <p>We create beautiful, fast, and SEO-friendly websites that help businesses attract more customers and grow online.</p>
+            <div class="hero-buttons">
+                <button class="btn-primary">Get Started →</button>
+                <button class="btn-secondary">View Our Work</button>
+            </div>
+        </div>
+        <!-- 3D UI Illustration Graphics Dashboard -->
+        <div class="hero-image scroll-reveal fade-right">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="Data Analytics Dashboard Mockup" class="floating-animation">
+        </div>
+    </section>
 
-  <button id="themeToggle">🌙</button>
-</header>
+    <!-- Stats Section -->
+    <section class="stats-container scroll-reveal fade-up">
+        <div class="stat-card"><h3>100+</h3><p>Happy Clients</p></div>
+        <div class="stat-card"><h3>250+</h3><p>Projects Completed</p></div>
+        <div class="stat-card"><h3>5+</h3><p>Years Experience</p></div>
+        <div class="stat-card"><h3>99%</h3><p>Client Satisfaction</p></div>
+    </section>
 
-<!-- HERO -->
-<section id="home" class="hero">
-  <div class="hero-text">
-    <h1>Grow Your Business With A Modern Website</h1>
-    <p>We build high converting websites that bring customers & sales.</p>
-    <a href="#contact" class="btn">Get Started</a>
-  </div>
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <span class="section-tag">OUR SERVICES</span>
+        <h2>What We Offer</h2>
+        <div class="grid">
+            <div class="card scroll-reveal fade-up">
+                <div class="icon">💻</div>
+                <h3>Website Design</h3>
+                <p>Beautiful, modern, and responsive website designs.</p>
+            </div>
+            <div class="card scroll-reveal fade-up" style="animation-delay: 0.2s;">
+                <div class="icon">📱</div>
+                <h3>Mobile Friendly</h3>
+                <p>Fully responsive websites that look great on all devices.</p>
+            </div>
+            <div class="card scroll-reveal fade-up" style="animation-delay: 0.4s;">
+                <div class="icon">🔍</div>
+                <h3>SEO Optimization</h3>
+                <p>Improve your rankings and get more organic traffic.</p>
+            </div>
+        </div>
+    </section>
 
-  <div class="hero-img">
-    <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" />
-  </div>
-</section>
+    <!-- Portfolio Section with Real Preview Images -->
+    <section id="portfolio" class="portfolio">
+        <span class="section-tag">OUR PORTFOLIO</span>
+        <h2>Our Recent Work</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item scroll-reveal fade-up">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=500&q=80" alt="Business Template">
+                <div class="portfolio-info"><h4>Corporate Corporate</h4><p>Business Website</p></div>
+            </div>
+            <div class="portfolio-item scroll-reveal fade-up" style="animation-delay: 0.2s;">
+                <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=500&q=80" alt="Real Estate Template">
+                <div class="portfolio-info"><h4>Luxury Homes</h4><p>Real Estate Portal</p></div>
+            </div>
+            <div class="portfolio-item scroll-reveal fade-up" style="animation-delay: 0.4s;">
+                <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=500&q=80" alt="Restaurant Template">
+                <div class="portfolio-info"><h4>Delicious Food</h4><p>Restaurant App</p></div>
+            </div>
+        </div>
+    </section>
 
-<!-- COUNTERS -->
-<section class="counters">
-  <div><h2 class="count" data-target="100">0</h2><p>Clients</p></div>
-  <div><h2 class="count" data-target="5">0</h2><p>Years Experience</p></div>
-  <div><h2 class="count" data-target="250">0</h2><p>Projects</p></div>
-</section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-text scroll-reveal fade-left">
+            <span class="section-tag">GET IN TOUCH</span>
+            <h2>Let's Build Something Amazing Together!</h2>
+            <p>Have a project in mind? Contact us today and let's discuss how we can help your business grow.</p>
+        </div>
+        <div class="contact-form-container scroll-reveal fade-right">
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn-submit">Send Message 🚀</button>
+            </form>
+        </div>
+    </section>
 
-<!-- ABOUT -->
-<section id="about" class="glass">
-  <h2>About Us</h2>
-  <p>We help businesses grow using modern design, branding and marketing.</p>
-</section>
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 NovaBusiness. All Rights Reserved.</p>
+    </footer>
 
-<!-- SERVICES -->
-<section id="services">
-  <h2 class="title">Our Services</h2>
+    <!-- Interactive Animation Logic Script -->
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    if (entry.target.classList.contains('fade-up')) entry.target.classList.add('animate__animated', 'animate__fadeInUp');
+                    if (entry.target.classList.contains('fade-left')) entry.target.classList.add('animate__animated', 'animate__fadeInLeft');
+                    if (entry.target.classList.contains('fade-right')) entry.target.classList.add('animate__animated', 'animate__fadeInRight');
+                    observer.unobserve(entry.target); // Runs animation only once
+                }
+            });
+        }, { threshold: 0.15 });
 
-  <div class="grid">
-    <div class="card">Website Design</div>
-    <div class="card">SEO Optimization</div>
-    <div class="card">Digital Marketing</div>
-  </div>
-</section>
-
-<!-- PORTFOLIO -->
-<section id="portfolio">
-  <h2 class="title">Portfolio</h2>
-
-  <div class="grid">
-    <img src="https://source.unsplash.com/400x300/?website" />
-    <img src="https://source.unsplash.com/400x300/?business" />
-    <img src="https://source.unsplash.com/400x300/?app" />
-  </div>
-</section>
-
-<!-- TESTIMONIALS -->
-<section class="testimonials">
-  <h2>Testimonials</h2>
-
-  <div class="card">
-    <p>"Amazing website quality!"</p>
-    <span>- Client A</span>
-  </div>
-
-  <div class="card">
-    <p>"My sales increased!"</p>
-    <span>- Client B</span>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact">
-  <h2>Contact Us</h2>
-
-  <form>
-    <input type="text" placeholder="Your Name" required />
-    <input type="email" placeholder="Email" required />
-    <textarea placeholder="Message"></textarea>
-    <button type="submit">Send</button>
-  </form>
-</section>
-
-<!-- WHATSAPP BUTTON -->
-<a class="whatsapp" href="https://wa.me/919876543210" target="_blank">💬</a>
-
-<!-- FOOTER -->
-<footer>
-  © 2026 Nova Business Pro
-</footer>
-
+        document.querySelectorAll('.scroll-reveal').forEach((el) => observer.observe(el));
+    </script>
 </body>
 </html>
