@@ -106,8 +106,9 @@ footer{
     .nav-links li{
         margin:8px 0;
     }
-
-    .hero {
+.hero,
+.hero-section,
+.home {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -115,4 +116,4 @@ footer{
   align-items: center;
   text-align: center;
   padding: 0 20px;
-    }
+}
