@@ -1,0 +1,120 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:'Poppins',sans-serif;
+  scroll-behavior:smooth;
+}
+
+body{
+  background:#0f172a;
+  color:white;
+}
+
+/* HEADER */
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 20px;
+  position:sticky;
+  top:0;
+  background:rgba(0,0,0,0.4);
+  backdrop-filter:blur(10px);
+}
+
+nav a{
+  margin:0 10px;
+  color:white;
+  text-decoration:none;
+}
+
+/* HERO */
+.hero{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:60px;
+  min-height:90vh;
+}
+
+.hero img{
+  width:400px;
+  border-radius:20px;
+}
+
+/* BUTTON */
+.btn{
+  display:inline-block;
+  padding:10px 20px;
+  background:#3b82f6;
+  border-radius:10px;
+  color:white;
+  text-decoration:none;
+}
+
+/* COUNTERS */
+.counters{
+  display:flex;
+  justify-content:space-around;
+  padding:40px;
+}
+
+/* GLASS */
+.glass{
+  margin:40px;
+  padding:30px;
+  background:rgba(255,255,255,0.1);
+  backdrop-filter:blur(10px);
+  border-radius:15px;
+}
+
+/* GRID */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:15px;
+  padding:20px;
+}
+
+.card{
+  background:white;
+  color:black;
+  padding:20px;
+  border-radius:12px;
+}
+
+/* TESTIMONIAL */
+.testimonials{
+  padding:40px;
+}
+
+/* CONTACT */
+form{
+  display:flex;
+  flex-direction:column;
+  width:300px;
+  margin:auto;
+}
+
+input,textarea{
+  margin:10px 0;
+  padding:10px;
+}
+
+/* WHATSAPP */
+.whatsapp{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:green;
+  padding:15px;
+  border-radius:50%;
+  font-size:24px;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:20px;
+  background:black;
+}
