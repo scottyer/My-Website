@@ -43,27 +43,17 @@ body{
     text-decoration:none;
 }
 
-.hero{
-    height:100vh;
-    background:linear-gradient(135deg,#0f172a,#2563eb);
-    color:white;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    text-align:center;
-    padding:20px;
+.hero,
+.hero-section,
+.home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
 }
-
-.hero h1{
-    font-size:48px;
-    margin-bottom:15px;
-}
-
-.hero p{
-    font-size:20px;
-    margin-bottom:25px;
-}
-
 .btn{
     display:inline-block;
     padding:12px 30px;
@@ -106,14 +96,6 @@ footer{
     .nav-links li{
         margin:8px 0;
     }
-.hero,
-.hero-section,
-.home {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 0 20px;
+.hero h1 {
+  font-size: 34px;
 }
