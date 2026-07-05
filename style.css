@@ -107,7 +107,12 @@ footer{
         margin:8px 0;
     }
 
-    .hero h1{
-        font-size:34px;
+    .hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
     }
-}
