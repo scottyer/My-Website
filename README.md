@@ -1,42 +1,38 @@
-# 🌐 My Website - Nova Business
+# 🛠️ ElitePlumbing & HVAC - Premium Landing Page
 
-A modern responsive business website for showcasing services, portfolio, and contact information.
+A lightning-fast, conversion-optimized, fully responsive landing page designed specifically for local home service businesses. Built with a mobile-first approach, this site focuses on high-urgency call generation and seamless user experience.
 
 ---
 
 ## 🚀 Live Demo
-👉 https://scottyer.github.io/My-Website/
+You can view the live deployment of this project here:  
+👉 **[https://scottyer.github.io/My-Website/](https://scottyer.github.io/My-Website/)**
 
 ---
 
-## ✨ Features
-- Responsive design (mobile + desktop)
-- Modern UI with clean layout
-- Hero section with call-to-action
-- Services section
-- Portfolio gallery
-- Testimonials
-- Contact form
-- WhatsApp floating button
+## ✨ Features & Optimizations
+
+*   **Mobile-First Tap-to-Call:** High-visibility emergency calling button integrated natively in the sticky header for instant customer conversions.
+*   **Blazing Fast Load Times:** Built using pure semantic HTML5 and vanilla modern CSS (`Flexbox` and `CSS Grid`). Zero heavy JavaScript frameworks or bloated external dependencies.
+*   **Fully Responsive:** Fluid, adaptive layout tested flawlessly across modern smartphones, tablets, and desktop displays.
+*   **Lead Capture Engine:** Secure, intuitive contact and booking form configured to route service inquiries straight to the team's inbox.
+*   **Modern Iconography:** Dynamic vector assets powered directly via FontAwesome CDN.
 
 ---
 
-## 🛠️ Built With
-- HTML5
-- CSS3
-- JavaScript
+## 🎨 Tech Stack & Variables
 
----
+*   **Structure:** HTML5 Semantic Markup
+*   **Styling:** Custom CSS3 Variables (configured easily inside `:root`)
+*   **Icons:** FontAwesome v6.4.0 (CDN Delivery)
 
-## 📱 Preview
-(Add screenshot here if you want)
+### Quick Theme Customization
+To match another contractor's brand identity (e.g., changing from Blue/Orange to Roofing Charcoal/Yellow), simply update the global root variable values in the `<style>` block:
 
----
-
-## 📞 Contact
-Email: sumanbiswas97546@gmail.com
-Phone: +91 9609851478
-
----
-
-© 2026 Nova Business Pro
+```css
+:root {
+    --primary-color: #0052cc; /* Change to primary brand color */
+    --accent-color: #ff6b00;  /* Change to call-to-action color */
+    --dark-color: #1a202c;     /* Dark background tone */
+    --light-color: #f7fafc;    /* Light background tone */
+}
